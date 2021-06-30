@@ -1,7 +1,7 @@
 FROM pelias/libpostal_baseimage
 
 # install go
-RUN curl https://dl.google.com/go/go1.11.linux-amd64.tar.gz | tar -C /usr/local -xz
+RUN curl https://dl.google.com/go/go1.11.linux-arm64.tar.gz | tar -C /usr/local -xz
 ENV PATH="$PATH:/usr/local/go/bin"
 ENV PORT 4400
 
